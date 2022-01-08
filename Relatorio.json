@@ -1,0 +1,60 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-08T18:21:11.172Z",
+        "line": 7,
+        "name": "Deve alugar um carro com sucesso",
+        "description": "",
+        "id": "aluguel-de-carro;deve-alugar-um-carro-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 19149241500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que o usuario preenche os dados de locacao",
+            "match": {
+              "location": "Steps.Alugar.preencheDadosdeLocacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5565149600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ele seleciona um carro",
+            "match": {
+              "location": "Steps.Alugar.selecionarCarro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1600234700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "é apresentado a página de resumo",
+            "match": {
+              "location": "Steps.Alugar.é_apresentado_a_página_de_resumo()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Aluguel de carro",
+    "description": "  Como um usuario\n  Gostaria de alugar um carro\n  Para poder me transportar",
+    "id": "aluguel-de-carro",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/java/feature/AlugarCarro.feature",
+    "tags": []
+  }
+]
